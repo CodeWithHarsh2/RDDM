@@ -6,7 +6,7 @@ class SimpleUNet(nn.Module):
         super().__init__()
 
         self.net = nn.Sequential(
-            nn.Conv2d(6, 64, 3, padding=1),
+            nn.Conv2d(2, 64, 3, padding=1),
             nn.ReLU(),
             nn.Conv2d(64, 64, 3, padding=1),
             nn.ReLU(),
