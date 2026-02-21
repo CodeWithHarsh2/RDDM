@@ -60,6 +60,4 @@ python sample.py
 - Place your dataset inside the appropriate dataset folder before training.
 - Modify hyperparameters directly inside the training script if needed.
 
----
 
-Made by Harsh Tayal
