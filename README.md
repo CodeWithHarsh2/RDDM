@@ -3,6 +3,14 @@
 RDDM is a Python implementation of a diffusion based deep learning model for image generation and experimentation.  
 The project includes training, sampling, dataset handling, and utility modules in a clean and modular structure.
 
+## Research References
+
+This work is based on the following two papers:
+
+1. **Residual Denoising Diffusion Models** — a dual diffusion framework that decouples denoising into residual diffusion and noise diffusion, unifying image generation and restoration tasks. :contentReference[oaicite:0]{index=0}  
+2. **Deep Learning for In Vivo Near-Infrared Imaging** — explores deep learning enhancement of near-infrared (NIR) imaging quality, which is used here for dataset evaluation and comparison. :contentReference[oaicite:1]{index=1}
+
+
 ## Project Structure
 
 ```
